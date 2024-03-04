@@ -1,0 +1,15 @@
+1. Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0".
+
+2. fileinfo: Obtiene información detallada sobre archivos, como su tipo MIME, tamaño, permisos, etc. Es útil para gestionar archivos de forma más eficiente.
+
+Localiza tu archivo php.ini. Este archivo se encuentra generalmente en el directorio de instalación de PHP en tu servidor.
+
+Abre el archivo php.ini con un editor de texto.
+
+Busca la línea que dice ;extension=fileinfo.
+
+Descomenta esta línea eliminando el punto y coma (;) al inicio. Debería quedar así: extension=fileinfo.
+
+Guarda y cierra el archivo php.ini.
+
+Finalmente, reinicia tu servidor web para que los cambios tengan efecto.
